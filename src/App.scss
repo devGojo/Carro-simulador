@@ -1,0 +1,126 @@
+.App {
+    text-align: center;
+  
+    .cabecalho{
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      padding: 2px;
+      margin-bottom: 10px;
+      background-color: rgb(223, 223, 223);
+    }
+  
+  
+    h1{
+      margin-top: 90px;
+      color: #746A6A;
+      align-items: center;
+      
+    }
+  
+    .principal{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-direction: center;
+      
+    }
+  
+    .img-carro{
+      background-color: rgb(173, 173, 173);
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+      box-shadow: 0px 0px 6px 6px #b7b7b7a5;
+    }
+  
+    .calculos{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      color: gray ;
+      padding: 100px 19px;
+      background-color: rgb(254, 255, 254);
+      border-radius: 4px;
+      box-shadow: 0px 0px 6px 6px #b7b7b7a5;
+    }
+  
+    .total{
+      display: flex;
+      flex-direction: column;
+      padding: 1px;
+      width: 300px;
+  
+      label{
+  
+        display: flex;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    }
+  
+  
+    }
+  
+    .parcela-juros{
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      padding: 10px;
+    }
+  
+    .parcela{
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      width: 125px;
+    
+      label {
+        display: flex;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+        margin: 15px;
+  
+      }
+  
+    }
+  
+    .juros{
+  
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      width: 125px;
+      background-color: rgb(255, 255, 255);
+  
+        label{
+        display: flex;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;  
+        margin: 5px;
+        }
+  
+    }
+  
+    button{
+  
+      color: white;
+      background-color: #0084FF;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+    }
+  
+    .resultado{
+      background-color: rgb(253, 253, 253);
+      justify-content: start;
+    }
+  
+  };
